@@ -1,0 +1,16 @@
+gerar a chave >>
+~$ ssh-keygen -t ed25519 -C email
+~$ --caminho padrão--
+~$ enter password
+~$ cat id_ed25519.pub (show the key to copy)
+
+
+
+ativar >>
+~$ eval $(ssh-agent -s)
+
+
+Clonar repositórios >>
+~$ git clone (ssh do repositório)
+
+

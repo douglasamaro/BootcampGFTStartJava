@@ -1,0 +1,20 @@
+commad to list >>>
+~$ ls
+
+emter in folders >>>
+~$ cd /folder
+
+back in folders >>>
+~$ cd ..
+
+clear the terminal >>>
+~$ CTRL L
+
+create a folder >>>
+~$ mkdir workspace
+
+delete folder >>>
+~$ rm -rf
+
+create file >>>
+~$ echo name > name.txt

@@ -1,0 +1,23 @@
+<h1>Blobs >>><h1/>
+<h2>Contém metadados do git<h2/>
+<p>
+Os Blobs tem o sha1 do arquivo, guardando seus próprios metadados, não guardando seu nome.
+<p/>
+<hr/>
+
+<h1>Trees >>><h1/>
+<h2>Armazena blobs<h2/>
+<p>
+ela contém metadados, aponta para blobs e guarda nomes dos arquivos, responsável por montar a estrutura da posição dos arquivos.
+<br/>
+Ela também pode apontar para outras arvorés
+<p/>
+<hr/>
+
+<h1>Commits >>><h1/>
+<h2>Junta tudo<h2/>
+<p>
+O commit aponta para arvore, para um parent, para uma mensagem e um autor, além da hora, ele é responsável por juntar todos os arquivos.
+<br/>
+Ele possuio um sha1, a mensagem enciptada. 
+<p/>

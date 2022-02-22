@@ -1,0 +1,8 @@
+Iniciar >>>
+git init
+
+Adicionar um arquivo ou diretório >>>
+git add >>>
+
+Commitar o que foi adicionado >>>
+git commit
